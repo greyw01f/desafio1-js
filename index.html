@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,19 +19,19 @@
               <p>Cantidad:
                 <span id="cantidad">0</span>
                 <button onclick="
-               
+                //Paso1: Llamar al elemento y guardarlo en variable
                 cantidadProd = document.querySelector('#cantidad')
-               
+                //Paso2: aumentar el valor, primero se captura el valor que ya existe utilizando innerText
                 aumentarProd=Number(cantidadProd.innerText)+1
-               
+                //Paso3: Modificar
                 cantidadProd.innerHTML = aumentarProd
             ">+</button>
                 <button onclick="
-               
+                //Paso1: Llamar al elemento y guardarlo en variable
                 cantidadProd = document.querySelector('#cantidad')
-               
+                //Paso2: aumentar el valor, primero se captura el valor que ya existe utilizando innerText
                 disminuirProd=Number(cantidadProd.innerText)-1
-               
+                //Paso3: Modificar
                 cantidadProd.innerHTML = disminuirProd
                 ">-</button>
               </p>
